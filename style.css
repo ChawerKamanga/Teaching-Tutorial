@@ -1,0 +1,59 @@
+html,
+body {
+  box-sizing: border-box;
+  text-align: center;
+  background: url("bg_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  font-family: helvetica;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.flex-form input[type="submit"]:hover {
+  background: #d73851;
+  border: 1px solid #d73851;
+}
+
+.flex-form input[type="submit"] {
+  background: #ef3f5a;
+  border: 1px solid #ef3f5a;
+  color: #fff;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.flex-form {
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+}
+
+.flex-form > * {
+  border: 0;
+  padding: 0 0 0 10px;
+  background: #fff;
+  line-height: 50px;
+  font-size: 1rem;
+  border-radius: 0;
+  outline: 0;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
